@@ -27,7 +27,8 @@ The dataset used contains transactional records from a retail supply chain, incl
 - **Cohort Analysis** – To analyze customer retention over time.  
 - **Market Basket Analysis** – To identify product associations and improve cross-selling strategies.  
 
-[[Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/<repo>/blob/<branch>/<notebook>.ipynb)
+## 🔗 
+[Open in Colab](https://colab.research.google.com/github/VyLe14072001/Final_Project/blob/main/Retail_Supply_Chain_Sales_LeDoPhuongVy.ipynb)
 
 [Tableau Public](https://public.tableau.com/views/FinalProject_RetailSupplyChainSales/OVERVIEW1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
