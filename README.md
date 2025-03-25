@@ -1,9 +1,17 @@
-**### Final Project: Retail Supply Chain Sales**
 # 🏁 Final Project: Retail Supply Chain Sales
 
 ## 📌 Project Overview
 
 This project focuses on analyzing retail supply chain sales data to uncover insights that can drive business decisions and improve overall sales performance. The analysis includes performance review, factor identification, and customer segmentation strategies.
+
+## 📁 Dataset
+
+The dataset used contains transactional records from a retail supply chain, including:
+- Customer: Customer ID, Customer Name, Customer Segment 
+- Geographic: Region, State, City, Postal Code
+- Product: Product ID, Product category, Category, Sub-Category, Product Name, Returned
+- Orders: Sales, Quantity, Discount, Profit, Order ID, Order Date, Retail Sales People
+- Shipping: Ship Date, Ship Mode
 
 ## 🎯 Objectives
 
@@ -11,54 +19,14 @@ This project focuses on analyzing retail supply chain sales data to uncover insi
 - Gain insights and identify key factors that affect sales improvement.
 - Enhance marketing strategies by segmenting customer groups.
 
-## 🛠️ Tools and Technologies Used
+## 🛠️ Technologies Used
 
-- Python (Pandas, NumPy, Seaborn, Matplotlib)
-- Google Colab
-- Jupyter Notebook
-- SQL (optional if applicable)
-- Scikit-learn (for clustering/segmentation)
-- Excel/CSV files for data input
+- **Linear Regression** – For predicting numerical outcomes based on relationships between variables.  
+- **Polynomial Regression** – For finding the optimal discount for products with low profit margins.  
+- **RFM Analysis** – To segment customers based on Recency, Frequency, and Monetary value.  
+- **Cohort Analysis** – To analyze customer retention over time.  
+- **Market Basket Analysis** – To identify product associations and improve cross-selling strategies.  
 
-## 📊 Key Tasks
-
-- Data Cleaning and Preprocessing
-- Exploratory Data Analysis (EDA)
-- Sales Trend Analysis
-- Profit and Discount Impact Analysis
-- Customer Segmentation (e.g., RFM analysis or clustering)
-- Visualization of Insights
-
-## 📁 Dataset
-
-The dataset used contains transactional records from a retail supply chain, including:
-- Order ID
-- Product Category
-- Sales
-- Profit
-- Shipping Time
-- Discount
-- Customer Details (for segmentation)
-
-*(Note: The dataset is either publicly available or anonymized for privacy.)*
-
-## 🔍 Insights & Findings
-
-- Identified top-performing and underperforming product categories.
-- Detected the impact of discount strategies on profitability.
-- Segmented customers based on purchasing behavior for targeted marketing.
-
-## 📈 Outcome
-
-The project provides valuable insights into sales trends and customer behavior, supporting data-driven decisions for improving sales and marketing efforts.
-
-## 📬 Contact
-
-For questions or collaboration opportunities, feel free to reach out via GitHub or email.
-
----
-
-✅ *Created using Google Colab*
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/<repo>/blob/<branch>/<notebook>.ipynb)
 
